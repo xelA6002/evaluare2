@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raport Resurse de Calcul și Internet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="page-header">
+    <div class="header-top">
+        <div class="title-block">
+            <h1>Raport Resurse de Calcul și Internet</h1>
+            <p class="subtitle">Student: Unguru Alexandru – Grupa 2116</p>
+        </div>
+        <div class="contact-block">
+            <p><strong>Email</strong><br>unguru.la.alexandru@student.utcluj.ro</p>
+            <p><strong>GitHub</strong><br>
+                <a href="https://github.com/xelA6002" target="_blank">github.com/xelA6002</a>
+            </p>
+        </div>
+    </div>
+
+    <nav class="main-nav">
+        <a href="#info-personale">Date personale</a>
+        <a href="#hardware-retea">Stația de lucru & rețeaua</a>
+        <a href="#monitorizare">Monitorizare resurse</a>
+    </nav>
+</header>
+
+<main>
+
+    <section id="info-personale" class="card-section">
+        <h2>1. Date personale</h2>
+
+        <div class="info-grid">
+            <div class="info-label">
+                <p>Nume</p>
+                <p>Prenume</p>
+                <p>Grupa</p>
+                <p>Email</p>
+            </div>
+
+            <div class="info-value">
+                <p>Unguru</p>
+                <p>Alexandru</p>
+                <p>2116</p>
+                <p>unguru.la.alexandru@student.utcluj.ro</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hardware-retea" class="card-section">
+        <h2>2. Stația principală de lucru și structura rețelei</h2>
+
+        <div class="hardware-layout">
+
+            <!-- Diagrama rețelei -->
+            <div class="diagram-column">
+                <h3>Diagrama rețelei personale</h3>
+                <img src="diagrama_retea.png"
+                     alt="Diagrama rețelei personale"
+                     class="img-soft">
+            </div>
+
+            <!-- Tabel hardware -->
+            <div class="hardware-column">
+                <h3>Componente hardware ale stației principale</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Componentă</th>
+                        <th>Specificație</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Procesor</td>
+                        <td>AMD Ryzen 5 7535HS</td>
+                    </tr>
+                    <tr>
+                        <td>Memorie RAM</td>
+                        <td>16 GB DDR5</td>
+                    </tr>
+                    <tr>
+                        <td>Stocare</td>
+                        <td>2 × SSD M.2, 512 GB</td>
+                    </tr>
+                    <tr>
+                        <td>Placă video</td>
+                        <td>NVIDIA GeForce RTX 4050</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="monitorizare" class="card-section">
+        <h2>3. Monitorizare resurse în timpul redării unui videoclip online</h2>
+
+        <p class="small-text">
+            Capturi de ecran realizate în timpul redării unui videoclip online, ce evidențiază
+            utilizarea procesorului, a memoriei și activitatea pe rețea.
+            Poți apăsa pe o imagine pentru a evidenția cardul.
+        </p>
+
+        <div class="resurse-grid">
+
+            <article class="resursa-item">
+                <h3>Utilizare CPU</h3>
+                <img src="cpu.png" alt="Utilizare CPU" class="img-soft">
+            </article>
+
+            <article class="resursa-item">
+                <h3>Consum memorie RAM</h3>
+                <img src="ram.png" alt="Consum memorie RAM" class="img-soft">
+            </article>
+
+            <article class="resursa-item">
+                <h3>Activitate rețea</h3>
+                <img src="net.png" alt="Activitate rețea" class="img-soft">
+            </article>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="page-footer">
+    <p>Unguru Alexandru &middot; UTCN – FIE, grupa 2116</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
